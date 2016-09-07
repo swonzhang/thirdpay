@@ -1,8 +1,9 @@
 ThirdPay
 ===============
-[![Latest Stable Version](https://poser.pugx.org/codesleeve/laravel-stapler/v/stable.svg)](https://packagist.org/packages/jaydenguo/thirdpay)[![Total Downloads](https://poser.pugx.org/codesleeve/laravel-stapler/downloads.svg)](https://packagist.org/packages/jaydenguo/thirdpay)
-[![Latest Unstable Version](https://poser.pugx.org/codesleeve/laravel-stapler/v/unstable.svg)](https://packagist.org/packages/jaydenguo/thirdpay)
-[![License](https://poser.pugx.org/codesleeve/laravel-stapler/license.svg)](https://packagist.org/packages/jaydenguo/thirdpay)
+[![Latest Stable Version](https://poser.pugx.org/jaydenguo/thirdpay/v/stable)](https://packagist.org/packages/jaydenguo/thirdpay)
+[![Total Downloads](https://poser.pugx.org/jaydenguo/thirdpay/downloads)](https://packagist.org/packages/jaydenguo/thirdpay)
+[![Latest Unstable Version](https://poser.pugx.org/jaydenguo/thirdpay/v/unstable)](https://packagist.org/packages/jaydenguo/thirdpay)
+[![License](https://poser.pugx.org/jaydenguo/thirdpay/license)](https://packagist.org/packages/jaydenguo/thirdpay)
 
 Laravel-Stapler is a Stapler-based file upload package for the Laravel framework.  It provides a full set of Laravel commands, a migration generator, and a cascading package config on top of the [Stapler](https://github.com/CodeSleeve/stapler) package.  It also bootstraps Stapler with very sensible defaults for use with Laravel.  If you are wanting to use [Stapler](https://github.com/CodeSleeve/stapler) with Laravel, it is strongly recommended that you use this package to do so.
 
