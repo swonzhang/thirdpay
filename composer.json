@@ -1,50 +1,15 @@
 {
-  "name": "Jueneng/laravel",
-  "description": "The Laravel Framework.",
-  "keywords": ["framework", "laravel"],
+  "name": "jaydenguo/ThirdPay",
+  "description": "微信支付和支付宝支付封装包",
+  "keywords": ["alipay", "weixin", "pay"],
   "license": "MIT",
-  "type": "project",
+  "type": "package",
   "require": {
-    "php": ">=5.6.4",
-    "laravel/framework": "5.3.*"
-  },
-  "require-dev": {
-    "fzaninotto/faker": "~1.4",
-    "mockery/mockery": "0.9.*",
-    "phpunit/phpunit": "~5.0",
-    "symfony/css-selector": "3.1.*",
-    "symfony/dom-crawler": "3.1.*"
+    "php": ">=5.3.0"
   },
   "autoload": {
-    "classmap": [
-      "database"
-    ],
     "psr-4": {
-      "App\\": "app/"
+      "Jueneng\\": "src/"
     }
-  },
-  "autoload-dev": {
-    "classmap": [
-      "tests/TestCase.php"
-    ]
-  },
-  "scripts": {
-    "post-root-package-install": [
-      "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-    ],
-    "post-create-project-cmd": [
-      "php artisan key:generate"
-    ],
-    "post-install-cmd": [
-      "Illuminate\\Foundation\\ComposerScripts::postInstall",
-      "php artisan optimize"
-    ],
-    "post-update-cmd": [
-      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-      "php artisan optimize"
-    ]
-  },
-  "config": {
-    "preferred-install": "dist"
   }
 }
