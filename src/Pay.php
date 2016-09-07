@@ -29,7 +29,6 @@ class Pay
      */
     public static function getInstance($name)
     {
-
         if (is_null(self::$instance)) {
             $arr = explode('.', $name);
             $company = $arr[0];
