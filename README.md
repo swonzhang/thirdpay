@@ -79,4 +79,4 @@ $result = $pay->verifyRefund($params);
 $result是bool类型，true是验证成功，false是验证失败。
 
 ###最后
-如发现该程序包的任何bug，请用邮件联系我**453539025@qq.com**，我将会以最快速度修复。
+如你发现该程序包的任何bug，请用邮件联系我**453539025@qq.com**，我将会以最快速度修复。
