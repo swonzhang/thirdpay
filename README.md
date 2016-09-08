@@ -1,4 +1,4 @@
-ThirdPay(程序包还未发布)
+ThirdPay
 ===============
 [![Latest Stable Version](https://poser.pugx.org/jaydenguo/thirdpay/v/stable)](https://packagist.org/packages/jaydenguo/thirdpay)
 [![Total Downloads](https://poser.pugx.org/jaydenguo/thirdpay/downloads)](https://packagist.org/packages/jaydenguo/thirdpay)
