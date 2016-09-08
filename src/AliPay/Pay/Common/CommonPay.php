@@ -1,12 +1,12 @@
 <?php
 
-namespace Jueneng\AliPay\Pay\Refund;
+namespace Jueneng\AliPay\Pay\Common;
 
 use Jueneng\AliPay\BasePay;
 use Jueneng\AliPay\Sign\Md5Sign;
 use Jueneng\AliPay\Sign\RSASign;
 
-class Refund extends BasePay
+class CommonPay extends BasePay
 {
     public function __construct(array $config=[], $sign=null)
     {
@@ -37,7 +37,7 @@ class Refund extends BasePay
 
     public function getRequestParam($requestParamName, $params, $config, $sign)
     {
-        $className = '\Jueneng\AliPay\Pay\Refund\RequestParams\\'.$requestParamName;
+        $className = '\Jueneng\AliPay\Pay\Common\RequestParams\\'.$requestParamName;
 
         return new $className($params, $config, $sign);
     }

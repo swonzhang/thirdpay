@@ -3,12 +3,15 @@
 namespace Jueneng\AliPay\Pay\Wap;
 
 use Jueneng\AliPay\BasePay;
+use Jueneng\AliPay\Pay\Common\CommonPay;
 
 class WapPay extends BasePay
 {
     public function __construct(array $config=[], $sign=null)
     {
         parent::__construct($config, $sign);
+
+        $this->commom = new CommonPay($config);
     }
 
     public function getRequestParam($requestParamName, $params, $config, $sign)

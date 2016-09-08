@@ -3,6 +3,7 @@
 namespace Jueneng\AliPay\Pay\Qr;
 
 use Jueneng\AliPay\BasePay;
+use Jueneng\AliPay\Pay\Common\CommonPay;
 
 /**
  * Class QrPay
@@ -12,6 +13,8 @@ class QrPay extends BasePay
     public function __construct(array $config=[], $sign=null)
     {
         parent::__construct($config, $sign);
+
+        $this->commom = new CommonPay($config);
     }
 
     public function getRequestParam($requestParamName, $params, $config, $sign)

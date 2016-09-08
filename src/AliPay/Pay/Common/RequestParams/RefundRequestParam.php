@@ -1,5 +1,5 @@
 <?php
-namespace Jueneng\AliPay\Pay\Refund\RequestParams;
+namespace Jueneng\AliPay\Pay\Common\RequestParams;
 
 use Jueneng\AliPay\BaseRequestParam;
 use Jueneng\AliPay\Helper;

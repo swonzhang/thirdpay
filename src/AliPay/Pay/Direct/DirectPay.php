@@ -3,6 +3,7 @@
 namespace Jueneng\AliPay\Pay\Direct;
 
 use Jueneng\AliPay\BasePay;
+use Jueneng\AliPay\Pay\Common\CommonPay;
 use Jueneng\AliPay\Sign\Md5Sign;
 
 class DirectPay extends BasePay
@@ -13,6 +14,8 @@ class DirectPay extends BasePay
     {
         $sign = new Md5Sign();
         parent::__construct($config, $sign);
+
+        $this->commom = new CommonPay($config);
     }
 
     public function getRequestParam($requestParamName, $params, $config, $sign)

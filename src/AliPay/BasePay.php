@@ -19,6 +19,8 @@ abstract class BasePay implements PayInterface
 
     protected $signKeyConfigName = 'ali_public_key_path';
 
+    protected $commom = null;
+
     public function __construct($config=[], $sign=null)
     {
         $this->config = array_change_key_case($config, CASE_LOWER);
@@ -44,7 +46,7 @@ abstract class BasePay implements PayInterface
 
     public function refund(Array $params)
     {
-        return false;
+        return $this->commom->refund($params);
     }
 
     /**
