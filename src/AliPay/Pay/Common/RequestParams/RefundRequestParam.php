@@ -40,7 +40,7 @@ class RefundRequestParam extends BaseRequestParam
 
     public function getRequestUrl()
     {
-        $url = $this->config['alipay_gateway_new']."_input_charset=".trim(strtolower($this->config['input_charset']));
+        $url = $this->config['alipay_gateway_new2']."_input_charset=".trim(strtolower($this->config['input_charset']));
 
         return $url;
     }

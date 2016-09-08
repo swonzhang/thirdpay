@@ -74,7 +74,7 @@ data是原始返回数据
 
 ###验证回跳或异步通知参数
 ```php
-$params = $pay->getNotifyRequestParams();
+$params = \Jueneng\AliPay\Helper::getNotifyRequestParams();
 $result = $pay->verifyRefund($params);
 ```
 $result是bool类型，true是验证成功，false是验证失败。

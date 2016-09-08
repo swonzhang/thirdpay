@@ -67,4 +67,14 @@ class Helper
 
         return $str;
     }
+
+    /**
+     * 获取异步通知或会跳的参数
+     *
+     * @return mixed
+     */
+    public function getNotifyRequestParams()
+    {
+        return (@file_get_contents('php://input'));
+    }
 }

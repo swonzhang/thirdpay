@@ -6,6 +6,11 @@ return [
     'ALIPAY_GATEWAY_NEW' => 'https://openapi.alipay.com/gateway.do?',
 
     /**
+     * 网关，无密退款需要请求这个地址
+     */
+    'ALIPAY_GATEWAY_NEW2' => 'https://mapi.alipay.com/gateway.do?',
+
+    /**
      * 回调验证URL，https请求
      */
     'HTTPS_VERIFY_URL' => 'https://mapi.alipay.com/gateway.do?service=notify_verify&',
@@ -82,7 +87,7 @@ return [
      * 退款成功服务器异步通知页面路径，需http://格式的完整路径，不能加?id=123这类自定义参数
      */
     'REFUND_NOTIFY_URL' => '',
-    
+
     /**
      * 应用私钥路径
      */

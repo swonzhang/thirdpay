@@ -7,7 +7,6 @@ class Pay
     private static $map = [
         'alipay' => [
             'direct' => 'Jueneng\AliPay\Pay\Direct\DirectPay',
-            'refund' => 'Jueneng\AliPay\Pay\Refund\Refund',
             'app' => 'Jueneng\AliPay\Pay\App\AppPay',
             'qr' => 'Jueneng\AliPay\Pay\Qr\QrPay',
             'wap' => 'Jueneng\AliPay\Pay\Wap\WapPay',

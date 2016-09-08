@@ -200,9 +200,4 @@ abstract class BasePay implements PayInterface
 
         return;
     }
-
-    public function getNotifyRequestParams()
-    {
-        return (@file_get_contents('php://input'));
-    }
 }

@@ -178,9 +178,4 @@ abstract class BasePay implements PayInterface
         echo 'error';
         return;
     }
-
-    public function getNotifyRequestParams()
-    {
-        return $_POST;
-    }
 }
