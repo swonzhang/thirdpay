@@ -5,6 +5,9 @@ namespace Jueneng\AliPay\Pay\App;
 use Jueneng\AliPay\BasePay;
 use Jueneng\AliPay\Pay\Common\CommonPay;
 
+/**
+ * 对应新版支付宝app支付接口
+ */
 class AppPay extends BasePay
 {
     public function __construct(array $config=[], $sign=null)

@@ -6,6 +6,9 @@ use Jueneng\AliPay\BasePay;
 use Jueneng\AliPay\Pay\Common\CommonPay;
 use Jueneng\AliPay\Sign\Md5Sign;
 
+/**
+ * 对应老版支付宝即时到帐支付接口
+ */
 class DirectPay extends BasePay
 {
     protected $signKeyConfigName = 'key';

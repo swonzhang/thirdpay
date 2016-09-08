@@ -5,6 +5,9 @@ namespace Jueneng\AliPay\Pay\Wap;
 use Jueneng\AliPay\BasePay;
 use Jueneng\AliPay\Pay\Common\CommonPay;
 
+/**
+ * 对应新版支付宝wap支付接口
+ */
 class WapPay extends BasePay
 {
     public function __construct(array $config=[], $sign=null)

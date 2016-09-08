@@ -6,7 +6,7 @@ use Jueneng\AliPay\BasePay;
 use Jueneng\AliPay\Pay\Common\CommonPay;
 
 /**
- * Class QrPay
+ * 对应新版支付宝扫码支付接口
  */
 class QrPay extends BasePay
 {
