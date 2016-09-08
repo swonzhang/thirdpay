@@ -77,7 +77,11 @@ data是原始返回数据
 $params = \Jueneng\AliPay\Helper::getNotifyRequestParams();
 $result = $pay->verifyRefund($params);
 ```
-$result是bool类型，true是验证成功，false是验证失败。
+$result是bool类型，true是验证成功，false是验证失败。异步通知回调验证等于true时，
+需要给第三方支付返回指定字符串，调用如下方法返回:
+```php
+return $pay->responseNotifySuccess();
+```
 
 ###最后
 如你发现该程序包的任何bug，请用邮件联系我**453539025@qq.com**，我将会以最快速度修复。
