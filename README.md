@@ -15,7 +15,7 @@ ThirdPay
 * [配置](#配置)
 * [示例](#示例)
 * [用法](#用法)
-* [注意](#注意)
+* [最后](#最后)
 
 ## 安装
 + 第一种方式 直接下载程序包，然后在项目中包含*autoload.php*  
@@ -77,3 +77,6 @@ $params = $pay->getNotifyRequestParams();
 $result = $pay->verifyRefund($params);
 ```
 $result是bool类型，true是验证成功，false是验证失败。
+
+###最后
+如发现该程序包的任何bug，请用邮件联系我**453539025@qq.com**，我将会以最快速度修复。
