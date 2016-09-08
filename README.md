@@ -5,11 +5,11 @@ ThirdPay(程序包还未发布)
 [![Latest Unstable Version](https://poser.pugx.org/jaydenguo/thirdpay/v/unstable)](https://packagist.org/packages/jaydenguo/thirdpay)
 [![License](https://poser.pugx.org/jaydenguo/thirdpay/license)](https://packagist.org/packages/jaydenguo/thirdpay)
 
-该项目封装了支付宝app支付，扫码支付，wap支付，即时到账支付以及微信app支付，微信扫码支付。
+该PHP包封装了支付宝app支付，扫码支付，wap支付，即时到账支付以及微信app支付，微信扫码支付。
 它提供了统一而简洁的调用接口，主要目的是让接入支付宝和微信支付的开发工作变得更加简单优雅。
 目前只提供**支付**和**退款**功能。
 
-该项目的作者是 [郭觉能](http://www.jueneng.org).
+该PHP包的作者是 [郭觉能](http://www.jueneng.org).
 
 * [安装](#安装)
 * [配置](#配置)
