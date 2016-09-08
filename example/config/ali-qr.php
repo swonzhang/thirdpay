@@ -80,6 +80,11 @@ return [
     'PAY_NOTIFY_URL' => '',
 
     /**
+     * 退款成功服务器异步通知页面路径，需http://格式的完整路径，不能加?id=123这类自定义参数
+     */
+    'REFUND_NOTIFY_URL' => '',
+
+    /**
      * 应用私钥路径
      */
     'PRIVATE_KEY_PATH' => '',   //例如 __DIR__.'/../../src/AliPay/cert/rsa_private_key.pem'

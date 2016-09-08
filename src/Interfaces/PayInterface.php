@@ -80,4 +80,12 @@ interface PayInterface
     public function responseNotifyFailed();
 
 
+    /**
+     * 获取异步通知或会跳的参数
+     *
+     * @return mixed
+     */
+    public function getNotifyRequestParams();
+
+
 }
