@@ -45,15 +45,14 @@ ThirdPay
 ```php
 $pay = \Jueneng\Pay::getInstance('alipay.direct');
 ```
-给getInstance方法传入参数alipay.direct表示实例化的是支付宝即使到账支付对象。所有的标识如下:
+给*getInstance*方法传入参数*alipay.direct*表示实例化的是支付宝即使到账支付对象。所有的标识如下:
 
-支付宝即时到帐支付: alipay.direct  
-支付宝app支付: alipay.app  
-支付宝扫码支付: alipay.qr  
-支付宝wap支付: alipay.wap  
-支付宝统一无密退款: alipay.refund  
-微信扫码支付: weixinpay.qr  
-微信app支付: weixinpay.app    
+支付宝即时到帐支付: *alipay.direct*  
+支付宝app支付: *alipay.app*  
+支付宝扫码支付: *alipay.qr*  
+支付宝wap支付: *alipay.wap*  
+微信扫码支付: *weixinpay.qr*  
+微信app支付: *weixinpay.app*    
 ###发起支付
 ```php
 $result = $pay->createOrder($params);
