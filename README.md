@@ -92,7 +92,7 @@ return $pay->responseNotifySuccess();
 + [支付宝wap支付](https://doc.open.alipay.com/doc2/detail?treeId=203&articleId=105288&docType=1)
 + [支付宝扫码支付](https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.548tMo&treeId=194&articleId=105203&docType=1)
 + [支付宝app支付](https://doc.open.alipay.com/doc2/detail?treeId=204&articleId=105051&docType=1)
-+ [支付宝无密退款](https://doc.open.alipay.com/doc2/detail?treeId=62&articleId=103566&docType=1)
++ [支付宝无密退款](https://doc.open.alipay.com/doc2/detail?treeId=62&articleId=103566&docType=1)(与有密退款只是标识参数不一样)
 + [微信扫码支付](https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=6_1)
 + [微信app支付](https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_1)
 
