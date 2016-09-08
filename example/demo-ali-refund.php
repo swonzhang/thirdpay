@@ -54,7 +54,7 @@
 include_once __DIR__.'/../src/autoload.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $config = include_once __DIR__.'/config/ali-qr.php';
+    $config = include_once __DIR__.'/local-config/ali-qr.php';
     $pay = \Jueneng\Pay::getInstance('alipay.qr');
     $pay->setConfig($config);
     $result = $pay->refund($_POST);

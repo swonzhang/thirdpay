@@ -56,7 +56,7 @@
 include_once __DIR__.'/../src/autoload.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $config = include_once __DIR__.'/config/ali-wap.php';
+    $config = include_once __DIR__.'/local-config/ali-wap.php';
     $pay = \Jueneng\Pay::getInstance('alipay.wap');
     $pay->setConfig($config);
     $result = $pay->createOrder($_POST);
