@@ -37,6 +37,10 @@ abstract class BasePay implements PayInterface
     public function setConfig($config)
     {
         $this->config = array_change_key_case($config, CASE_LOWER);
+
+        if (!is_null($this->commom)) {
+            $this->commom->setConfig($this->config);
+        }
     }
 
     public function createOrder(Array $params)

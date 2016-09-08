@@ -12,8 +12,6 @@ class CommonPay extends BasePay
     {
         $sign = new RSASign();
         parent::__construct($config, $sign);
-
-        var_dump($this->config);die;
     }
 
     /**
