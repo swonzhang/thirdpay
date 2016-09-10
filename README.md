@@ -63,9 +63,10 @@ $params是从外部传入的参数数组，具体请求参数请参考对应的�
 因为这个包里面已经预先设置好了这些参数，你也可以参照示例来传，以及查看
 对应的参数请求类，比如支付的参数请求类是CreateOrderRequestParam。
 
-返回的$result是一个数组，包含3个字段message,success,data，
+返回的$result可能是字符串也可能是一个数组，以实际返回数据为准。  
+如果是一个数组，则包含3个字段message,success,data，
 message是返回消息，success是发起支付是否成功，true是成功，false是失败，
-data是原始返回数据
+data是原始返回数据。
 
 ###发起退款
 ```php
