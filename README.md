@@ -44,7 +44,7 @@ ThirdPay
 ###实例化支付对象
 ```php
 $pay = \Jueneng\Pay::getInstance('alipay.direct');
-$pay = $pay->setConfig($config);
+$pay->setConfig($config);
 ```
 给*getInstance*方法传入参数*alipay.direct*表示实例化的是支付宝即使到账支付对象。所有的标识如下:
 
